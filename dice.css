@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.player-0-panel{
+    float: left;
+    font-size: 40px;
+    font-weight: normal;
+    line-height: 180px;
+    padding-top:-10px;
+    padding-left: 40px;
+    text-align: center;
+    top: 120px;
+    
+}
+
+.player-1-panel{
+    float: right;
+    font-size: 40px;
+    font-weight: normal;
+    line-height: 180px;
+    padding-top:-10px;
+    padding-right: 40px;
+    text-align: center;
+    top: 120px;
+}
+
+#score-0{
+    position: absolute;
+    left:20%;
+    top: 30%;
+    color: rgb(230, 21, 21);
+    font-size: 80px;
+}
+
+#score-1{
+    position: absolute;
+    right:20%;
+    top: 30%;
+    color: rgb(230, 21, 21);
+    font-size: 80px;
+}
+
+
+.player-current-box1 {
+    position: absolute;
+    left: 17%;
+    top: 60%;
+    background-color: rgb(230, 21, 21);
+    text-align: center;
+    width: 130px;
+    font-size: 20px;
+    color: white;
+    line-height: 60px;
+
+}
+
+.player-current-box2 {
+    position: absolute;
+    right: 17%;
+    top: 60%;
+    background-color: rgb(230, 21, 21);
+    text-align: center;
+    width: 130px;
+    font-size: 20px;
+    color: white;
+    line-height: 60px;
+}
+
+img {
+    position: absolute;
+    top: 120px;
+    left: 40%;
+}
+
+.btn-roll {
+    position: absolute;
+    top: 510px;
+    left: 47%;
+    border: none;
+    color: rgb(230, 21, 21);
+    font-size: 20px;
+    background-color: #fff;
+}
+
+.btn-hold {
+    position: absolute;
+    top: 550px;
+    left: 47%; 
+    border: none;
+    color: rgb(230, 21, 21);
+    font-size: 20px;
+    background-color: #fff;
+}
+
+.btn-new {
+    position: absolute;
+    top: 15px;
+    left: 43%;
+    font-size: 30px;
+    color: rgb(230, 21, 21);
+    background-color: white;
+   border: none;
+}
+
+.button {
+    position: absolute;
+    top: 511px;
+    left: 575px;
+}
+
+.winner { 
+    background-color:#999;
+}
+.winner .player-name {
+    color: rgb(230, 21, 21);
+    font-weight:bold;
+    font-size: 70px;
+}
+.active {
+    color: red;
+}
+.active .player-name {
+    position: absolute;
+    font-weight: 300px;
+    background-color: #999;
+    background-image: url(images/button2.png);
+    width: 20%;
+}
+
+#name-0 {
+    font-weight: 30px;
+    position: absolute;
+    left: 15%;
+    top: 10%;
+    text-transform: uppercase;
+}
+
+#name-1 {
+    font-weight: 30px;
+    position: absolute;
+    right: 15%;
+    top: 10%;
+    text-transform: uppercase;
+}
+body {
+    background-color: white;
+}
+
+.new {
+   position: absolute;
+   top: 24px;
+   left: 41%;
+}
+.button2 {
+    position: absolute;
+    top: 150px;
+    left: 30%;
+}
+.hd {
+    position: absolute;
+    top: 550px;
+    left: 44%;
+    color: rgb(230, 21, 21);
+}
